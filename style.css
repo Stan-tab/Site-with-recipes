@@ -12,10 +12,17 @@
     background-color: rgb(72, 65, 126);
 }
 
-.coltext {
+.textset {
     color: white;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-.coltext a {
+.textset a {
     color: rgb(71, 150, 187);
+}
+
+.textset h4,
+.textset h3,
+.textset p {
+    margin-top: 5px;
 }
