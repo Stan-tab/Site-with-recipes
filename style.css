@@ -1,0 +1,21 @@
+.imagess {
+    height: auto;
+    width: 600px;
+    border-style: inset;
+}
+
+.centring {
+    text-align: center;
+}
+
+* {
+    background-color: rgb(72, 65, 126);
+}
+
+.coltext {
+    color: white;
+}
+
+.coltext a {
+    color: rgb(71, 150, 187);
+}
