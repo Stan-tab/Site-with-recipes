@@ -1,28 +1,63 @@
 .imagess {
     height: auto;
-    width: 600px;
+    width: 100%;
     border-style: inset;
-}
-
-.centring {
-    text-align: center;
+    border-color: antiquewhite;
+    box-sizing: border-box;
+    border-radius: 15px;
 }
 
 * {
-    background-color: rgb(72, 65, 126);
+    background-color: grey;
+    text-align: center;
+    color: darkslategray;
 }
 
-.textset {
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
+.introduction > h1{
+    background-color: rgb(247, 231, 208);
+    padding: 20px;
+    border-radius: 15px;
+    border-style: groove;
+    margin: 5px 0px;
+    border-color: white darkgray darkgrey white;
+}
+.introduction {
+    width: 95%;
+    margin: 0 auto;
 }
 
-.textset a {
-    color: rgb(71, 150, 187);
+.main1 *,
+.main1 {
+    background-color: rgb(247, 231, 208);
 }
 
-.textset h4,
-.textset h3,
-.textset p {
-    margin-top: 5px;
+.txtwork * {
+    display: inline;
+}
+
+.contab {
+    padding: 20px;
+    margin: auto 0;
+    border-radius: 25px;
+}
+
+.txtwork {
+    width: 80%;
+    margin: 3% auto;
+}
+
+.main1 {
+    border-style: double;
+    background-color: rgb(247, 231, 208);
+    border-radius: 15px;
+    margin-bottom: 5px;
+    border-color: white darkgray darkgrey white;
+}
+
+p {
+    font-weight: bold;
+}
+
+p a {
+    color: grey;
 }
