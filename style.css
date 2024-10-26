@@ -5,6 +5,7 @@
     border-color: antiquewhite;
     box-sizing: border-box;
     border-radius: 15px;
+    max-width: 480px;
 }
 
 * {
